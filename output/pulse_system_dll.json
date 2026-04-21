@@ -109,8 +109,8 @@
       },
       "CPulseCell_BooleanSwitchState": {
         "fields": {
+          "m_Always": 192,
           "m_Condition": 72,
-          "m_SubGraph": 192,
           "m_WhenFalse": 336,
           "m_WhenTrue": 264
         },
@@ -594,11 +594,11 @@
       },
       "CPulseCell_Step_CallExternalMethod": {
         "fields": {
-          "m_ExpectedArgs": 104,
-          "m_GameBlackboard": 88,
+          "m_ExpectedArgs": 96,
           "m_MethodName": 72,
-          "m_OnFinished": 128,
-          "m_nAsyncCallMode": 120
+          "m_OnFinished": 120,
+          "m_nAsyncCallMode": 112,
+          "m_nBlackboardIndex": 88
         },
         "metadata": [
           {
@@ -1013,6 +1013,10 @@
           {
             "name": "MPropertyFriendlyName",
             "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
           }
         ],
         "parent": null
@@ -1126,10 +1130,10 @@
       },
       "CPulseTurtleGraphicsCursor": {
         "fields": {
-          "m_Color": 208,
-          "m_bPenUp": 224,
-          "m_flHeadingDeg": 220,
-          "m_vPos": 212
+          "m_Color": 216,
+          "m_bPenUp": 232,
+          "m_flHeadingDeg": 228,
+          "m_vPos": 220
         },
         "metadata": [],
         "parent": null
@@ -1199,8 +1203,8 @@
       },
       "CTestDomainDerived_Cursor": {
         "fields": {
-          "m_nCursorValueA": 208,
-          "m_nCursorValueB": 212
+          "m_nCursorValueA": 216,
+          "m_nCursorValueB": 220
         },
         "metadata": [],
         "parent": null
@@ -1295,8 +1299,67 @@
         "fields": {},
         "metadata": [],
         "parent": null
+      },
+      "TestComponent_t": {
+        "fields": {
+          "m_ComponentData": 8
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "TestComponent_tAPI": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
       }
     },
-    "enums": {}
+    "enums": {
+      "PulseBestOutflowRules_t": {
+        "alignment": 4,
+        "members": {
+          "SORT_BY_NUMBER_OF_VALID_CRITERIA": 0,
+          "SORT_BY_OUTFLOW_INDEX": 1
+        },
+        "type": "uint32"
+      },
+      "PulseCursorCancelPriority_t": {
+        "alignment": 4,
+        "members": {
+          "CancelOnSucceeded": 1,
+          "HardCancel": 3,
+          "None": 0,
+          "SoftCancel": 2
+        },
+        "type": "uint32"
+      },
+      "PulseMethodCallMode_t": {
+        "alignment": 4,
+        "members": {
+          "ASYNC_FIRE_AND_FORGET": 1,
+          "SYNC_WAIT_FOR_COMPLETION": 0
+        },
+        "type": "uint32"
+      },
+      "PulseTestEnumColor_t": {
+        "alignment": 4,
+        "members": {
+          "BLACK": 0,
+          "BLUE": 4,
+          "GREEN": 3,
+          "RED": 2,
+          "WHITE": 1
+        },
+        "type": "uint32"
+      },
+      "PulseTestEnumShape_t": {
+        "alignment": 4,
+        "members": {
+          "CIRCLE": 100,
+          "SQUARE": 200,
+          "TRIANGLE": 300
+        },
+        "type": "uint32"
+      }
+    }
   }
 }
