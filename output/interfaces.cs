@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-04-22 23:00:23.845600900 UTC
+// 2026-04-24 23:28:19.626834700 UTC
 
 namespace CS2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -113,7 +113,7 @@ namespace CS2Dumper.Interfaces {
     }
     // Module: panorama.dll
     public static class PanoramaDll {
-        public const nint PanoramaUIEngine001 = 0x505D30;
+        public const nint PanoramaUIEngine001 = 0x506D30;
     }
     // Module: panorama_text_pango.dll
     public static class PanoramaTextPangoDll {
@@ -171,10 +171,10 @@ namespace CS2Dumper.Interfaces {
     }
     // Module: soundsystem.dll
     public static class SoundsystemDll {
-        public const nint SoundOpSystem001 = 0x5129B0;
-        public const nint SoundOpSystemEdit001 = 0x512870;
+        public const nint SoundOpSystem001 = 0x5129C0;
+        public const nint SoundOpSystemEdit001 = 0x512880;
         public const nint SoundSystem001 = 0x512360;
-        public const nint VMixEditTool001 = 0x594879F;
+        public const nint VMixEditTool001 = 0x59487BF;
     }
     // Module: steamaudio.dll
     public static class SteamaudioDll {

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-04-22 23:00:23.845600900 UTC
+// 2026-04-24 23:28:19.626834700 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -116,7 +116,7 @@ pub mod cs2_dumper {
         }
         // Module: panorama.dll
         pub mod panorama_dll {
-            pub const PanoramaUIEngine001: usize = 0x505D30;
+            pub const PanoramaUIEngine001: usize = 0x506D30;
         }
         // Module: panorama_text_pango.dll
         pub mod panorama_text_pango_dll {
@@ -174,10 +174,10 @@ pub mod cs2_dumper {
         }
         // Module: soundsystem.dll
         pub mod soundsystem_dll {
-            pub const SoundOpSystem001: usize = 0x5129B0;
-            pub const SoundOpSystemEdit001: usize = 0x512870;
+            pub const SoundOpSystem001: usize = 0x5129C0;
+            pub const SoundOpSystemEdit001: usize = 0x512880;
             pub const SoundSystem001: usize = 0x512360;
-            pub const VMixEditTool001: usize = 0x594879F;
+            pub const VMixEditTool001: usize = 0x59487BF;
         }
         // Module: steamaudio.dll
         pub mod steamaudio_dll {
