@@ -7410,7 +7410,12 @@
         },
         "type": "uint32"
       },
-      "______": {
+      "___9G_": {
+        "alignment": 0,
+        "members": {},
+        "type": "unknown"
+      },
+      "_b_9G_": {
         "alignment": 0,
         "members": {},
         "type": "unknown"
