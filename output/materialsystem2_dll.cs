@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-09-03 23:36:28.073510400 UTC
+// 2026-09-08 00:13:53.067279300 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: materialsystem2.dll
