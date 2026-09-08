@@ -1,10 +1,10 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-09-08 00:13:53.067279300 UTC
+// 2026-09-08 17:07:18.304894700 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
     // Class count: 567
-    // Enum count: 19
+    // Enum count: 14
     public static class ClientDll {
         // Alignment: 4
         // Member count: 5
